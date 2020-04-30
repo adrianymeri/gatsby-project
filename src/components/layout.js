@@ -8,9 +8,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 // import { useStaticQuery, graphql } from "gatsby"
-import Footer from "./footer"
+import Footer from "./Footer"
 
 import Header from "./Header"
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./layout.css"
 
 const Layout = ({ children }) => {
