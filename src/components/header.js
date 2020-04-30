@@ -3,10 +3,6 @@
 import React from "react"
 import GrillLogo from "../images/logo.png"
 import MainMenu from "./MainMenu"
-import Slider from "./Slider"
-import Services from "./Services"
-import LatestBlog from "./LatestBlog"
-import Testimonails from "./Testimonails"
 const Header = ({ siteTitle }) => (
     <div>
         <header>
@@ -51,10 +47,6 @@ const Header = ({ siteTitle }) => (
                 </div>
             </div>
         </header>
-        <Slider />
-        <Services />
-        <LatestBlog />
-        <Testimonails />
     </div>
 )
 

@@ -1,8 +1,13 @@
 import React from "react"
+import Layout from "../components/Layout"
 
-const contact = () =>{
+const contact = () => {
     return (
-        <h1>Contact us page</h1>
+        <>
+            <Layout>
+                <h1>Contact page</h1>
+            </Layout>
+        </>
     )
 }
 
