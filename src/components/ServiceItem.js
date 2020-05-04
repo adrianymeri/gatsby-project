@@ -1,4 +1,5 @@
 import React from "react"
+import 'font-awesome/css/font-awesome.min.css';
 
 
 const ServiceItem = () => {
@@ -6,7 +7,7 @@ const ServiceItem = () => {
         <div class="col-md-3 col-sm-6">
             <div class="service-item">
                 <div class="icon">
-                    <i class="fa fa-pencil"></i>
+                    <i className="fa fa-pencil"></i>
                 </div>
                 <h4>Make an order</h4>
                 <p>Sed egestas tincidunt mollis. Suspendisse rhoncus vitae enim et faucibus. Ut dignissim nec arcu nec hendrerit. Sed arcu  sagittis vel diam in, malesuada malesuada risus. Aenean a sem leoneski.</p>

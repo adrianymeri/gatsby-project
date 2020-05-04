@@ -10,7 +10,7 @@ const SliderItems = () => {
                 eget tellus luctus fermentum.</p>
                 <a href="single-post.html">Shop Now</a>
             </div>
-            <img src={Slide1} alt="" />
+            <img src={Slide1} alt="test" className="slider-imgs"/>
         </li>
     )
 }

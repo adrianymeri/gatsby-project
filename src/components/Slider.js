@@ -8,8 +8,8 @@ const Slider = () => {
       <div class="flexslider">
         <ul class="slides">
           <SliderItems />
-          <SliderItems />
-          <SliderItems />
+          {/* <SliderItems />
+          <SliderItems /> */}
         </ul>
       </div>
     </div>
