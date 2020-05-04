@@ -1441,6 +1441,9 @@ textarea {
 .slider-imgs {
   width: 100%;
 }
+.slides{
+  list-style-type: none;
+}
 
 .slider-caption h1 {
   text-shadow: 1px 1px #777;

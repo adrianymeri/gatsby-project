@@ -7,17 +7,17 @@ const Header = ({ siteTitle }) => (
     <div>
         <header>
             <div id="top-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="home-account">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-6">
+                            <div className="home-account">
                                 <a href="#">Home</a>
                                 <a href="#">My account</a>
                             </div>
                         </div>
-                        <div class="col-md-6">
-                            <div class="cart-info">
-                                <i class="fa fa-shopping-cart"></i>
+                        <div className="col-md-6">
+                            <div className="cart-info">
+                                <i className="fa fa-shopping-cart"></i>
                                     (<a href="#">5 items</a>) in your cart (<a href="#">$45.80</a>)
                                 </div>
                         </div>
@@ -25,19 +25,19 @@ const Header = ({ siteTitle }) => (
                 </div>
             </div>
             <div id="main-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <div class="logo">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-md-3">
+                            <div className="logo">
                                 <img src={GrillLogo} title="Grill Template" alt="Grill Website Template" />
                             </div>
                         </div>
-                        <div class="col-md-6">
+                        <div className="col-md-6">
                             <MainMenu />
                         </div>
-                        <div class="col-md-3">
-                            <div class="search-box">
-                                <form name="search_form" method="get" class="search_form">
+                        <div className="col-md-3">
+                            <div className="search-box">
+                                <form name="search_form" method="get" className="search_form">
                                     <input id="search" type="text" />
                                     <input type="submit" id="search-button" />
                                 </form>

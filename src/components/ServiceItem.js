@@ -4,9 +4,9 @@ import 'font-awesome/css/font-awesome.min.css';
 
 const ServiceItem = () => {
     return (
-        <div class="col-md-3 col-sm-6">
-            <div class="service-item">
-                <div class="icon">
+        <div className="col-md-3 col-sm-6">
+            <div className="service-item">
+                <div className="icon">
                     <i className="fa fa-pencil"></i>
                 </div>
                 <h4>Make an order</h4>

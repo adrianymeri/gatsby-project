@@ -5,8 +5,8 @@ import SliderItems from "./SliderItems"
 const Slider = () => {
   return (
     <div id="slider">
-      <div class="flexslider">
-        <ul class="slides">
+      <div className="flexslider">
+        <ul className="slides">
           <SliderItems />
           {/* <SliderItems />
           <SliderItems /> */}
