@@ -1,6 +1,7 @@
 import React from "react"
 import Blogpost1 from "../images/blogpost1.jpg"
 import ProductData from "../productdata.json"
+import UnderHeading from "../images/under-heading.png"
 
 
 const ProductCard = () => (
@@ -9,6 +10,26 @@ const ProductCard = () => (
 
         <div className="container">
             <div className="col-md-4 col-sm-6">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="product-heading">
+                            <h2>Hungry ?</h2>
+                            <img src={UnderHeading} alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="filters col-md-12 col-xs-12">
+                        <ul id="filters" class="clearfix">
+                            <li><span class="filter" data-filter="all">All</span></li>
+                            <li><span class="filter" data-filter=".ginger">Ginger</span></li>
+                            <li><span class="filter" data-filter=".pizza">Pizza</span></li>
+                            <li><span class="filter" data-filter=".pasta">Pasta</span></li>
+                            <li><span class="filter" data-filter=".drink">Drink</span></li>
+                            <li><span class="filter" data-filter=".hamburger">Hamburger</span></li>
+                        </ul>
+                    </div>
+                </div>
                 {ProductData.map((data, index) => {
                     return (
                         <>
