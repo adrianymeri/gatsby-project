@@ -4,8 +4,8 @@ import LatestBlog from "../components/LatestBlog"
 import Testimonails from "../components/Testimonails"
 import Slider from "../components/Slider"
 import Layout from "../components/Layout"
-// import Image from "../components/image"
-// import SEO from "../components/seo"
+import Image from "../components/image"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <>
